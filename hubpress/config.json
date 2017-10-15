@@ -2,7 +2,8 @@
   "meta": {
     "username": "mkhymohamed",
     "repositoryName": "mkhymohamed.github.io",
-    "branch": "master"
+    "branch": "master",
+    "cname": ""
   },
   "theme": {
     "name": "casper"
@@ -22,5 +23,27 @@
       null,
       null
     ]
+  },
+  "site": {
+    "title": "",
+    "description": "",
+    "logo": "",
+    "cover": "",
+    "delay": "",
+    "postsPerPage": "",
+    "googleAnalytics": "",
+    "disqus": ""
+  },
+  "socialnetwork": {
+    "email": "mkhy88519@gmail.com",
+    "github": "https://github.com/mohamedkhaledyousef",
+    "twitter": "https://twitter.com/mkhy7",
+    "facebook": "",
+    "googleplus": "",
+    "instagram": "https://www.instagram.com/mohamed_khaled_yousef/",
+    "pinterest": "",
+    "flickr": "",
+    "linkedin": "www.linkedin.com/in/mohamed-khaled-yousef-421081a5",
+    "stackoverflow": ""
   }
 }

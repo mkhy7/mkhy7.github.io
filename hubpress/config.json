@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "ghostium"
+    "name": "uno"
   },
   "urls": {
     "site": "https://mkhymohamed.github.io",
     "hubpress": "https://mkhymohamed.github.io",
-    "theme": "//mkhymohamed.github.io/themes/ichi",
+    "theme": "//mkhymohamed.github.io/themes/ghostium",
     "images": "https://mkhymohamed.github.io/images"
   },
   "initialisationConfigComponent": {

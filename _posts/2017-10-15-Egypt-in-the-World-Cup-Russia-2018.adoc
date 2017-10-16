@@ -55,7 +55,7 @@ Happy for the joy of my countrymen.
 Yes, that day will never forget and will always remind my friends
 
 '''
-= These are some of photos that I shot on this wonderful day:
+== These are some of photos that I shot on this wonderful day:
 
 image::https://user-images.githubusercontent.com/14186989/31590707-3fce00c8-b215-11e7-9fe9-32893159a3ac.jpg[staduim,300,200]
 '''
@@ -81,7 +81,6 @@ And if it has a mistake you can message me at any time and I will be happy with 
 
 '''
 == Egypt to Russia
-----
 This week egypt will play the fifth match with congo, Egypt need to win to qualify to World Cup in Russia 2018.
 But through the four matches before, Egypt won Congo in Congo 2-1 ,Ghana in Egypt 2-0 then Egypt losses from Uganda in Uganda 1-0 then Egypt won in Egypt 1-0.
 And now Egypt have 9 points then Uganda with 8 points then Ghana with 6 points then Congo with one point.
@@ -99,33 +98,34 @@ And if the ball reach to Elsaid or salah or trezeguet you must identify if the a
 
 Strikers can not score goals in Koober technique and all goals by the midfielders.
 
-Input Format
+*Input Format*
 The first line contains an integer, N denoting number of attacking that starts from Essam Elhadary.
 Then N lines in each line list of ones or zeros (1 indicates to the ball moved from level to another level) or 0(if not).
 And if the ball reach to last level (midfielders) you must identify if the ball scored goal or not (y or n).
 
-Output Format
+*Output Format*
 Count how many goals Egyptian team can score when thay attack.
 
-Notice: No Constraints 
+*Notice: No Constraints 
 
-Sample Input
-8               
-1 1 1 0         
-1 1 1 1 n       
-1 1 1 0         
-1 1 1 1 n       
-1 1 1 1 y       
-1 1 1 1 y       
-1 1 1 0         
-1 1 1 1 y       
+*Sample Input*
 
-Sample Output
+8 +
+1 1 1 0 +
+1 1 1 1 n  +  
+1 1 1 0 +   
+1 1 1 1 n +   
+1 1 1 1 y +
+1 1 1 1 y +
+1 1 1 0 +
+1 1 1 1 y +       
+
+*Sample Output* +
 3
-----
+
 '''
 
-= updates
+== updates
 Egypt won congo 2-1 with the same way 
 
 The first goal the ball passed from elneny to salah then he scored goal.

@@ -49,7 +49,7 @@ Yes, that day will never forget and will always remind my friends
 '''
 == These are some of photos that I shot on this wonderful day:
 
-image::https://user-images.githubusercontent.com/14186989/31590707-3fce00c8-b215-11e7-9fe9-32893159a3ac.jpg[staduim,1500,1400]
+image::https://user-images.githubusercontent.com/14186989/31590707-3fce00c8-b215-11e7-9fe9-32893159a3ac.jpg[staduim,1500,1800]
 '''
 image::https://user-images.githubusercontent.com/14186989/31590429-4f92d7ea-b210-11e7-8d74-ee9e3e767b80.jpg[]
 '''

@@ -126,5 +126,8 @@ Count how many goals Egyptian team can score when thay attack.
 Egypt won Congo 2-1 with the same way +
 The first goal the ball passed from elneny to salah then he scored goal. +
 The second goal trezaguet got pelanty and salah score the second goal. +
+
+'''
+Feel free to leave any comments or feedback. Thank you!
 published_at: 2017-10-16
 

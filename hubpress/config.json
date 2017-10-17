@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "saga"
+    "name": " ghostium"
   },
   "urls": {
     "site": "https://mkhymohamed.github.io",
     "hubpress": "https://mkhymohamed.github.io",
-    "theme": "//mkhymohamed.github.io/themes/casper",
+    "theme": "//mkhymohamed.github.io/themes/saga",
     "images": "https://mkhymohamed.github.io/images"
   },
   "initialisationConfigComponent": {

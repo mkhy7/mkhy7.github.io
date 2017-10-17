@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "roon"
+    "name": "ichi"
   },
   "urls": {
     "site": "https://mkhymohamed.github.io",
     "hubpress": "https://mkhymohamed.github.io",
-    "theme": "//mkhymohamed.github.io/themes/uno",
+    "theme": "//mkhymohamed.github.io/themes/roon",
     "images": "https://mkhymohamed.github.io/images"
   },
   "initialisationConfigComponent": {

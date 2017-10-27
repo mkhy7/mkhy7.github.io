@@ -1,0 +1,14 @@
+
+= Random Quote Machine
+
+image::https://user-images.githubusercontent.com/14186989/32087162-57e85eb0-bada-11e7-9d36-66708139a436.PNG[]
+
+Today I finished the first simple project using JSON APIs. +
+Yeah it's Random Quote generator that makes you can tweet the quotes on twitter, post on tumblr and facebook.
+
+Here's tools that used are HTML5, CSS3, JavaScript, Boostrap, JQuery and Forismatic API.
+
+To know how it works and how to use it to tweet check the github repo :https://github.com/mohamedkhaledyousef/Front-End-Projects/tree/master/2-Quote%20machine
+
+
+

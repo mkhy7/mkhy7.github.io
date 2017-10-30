@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "casper"
+    "name": "saga"
   },
   "urls": {
     "site": "https://mkhymohamed.github.io",
     "hubpress": "https://mkhymohamed.github.io",
-    "theme": "//mkhymohamed.github.io/themes/saga",
+    "theme": "//mkhymohamed.github.io/themes/casper",
     "images": "https://mkhymohamed.github.io/images"
   },
   "initialisationConfigComponent": {

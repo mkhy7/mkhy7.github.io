@@ -27,8 +27,8 @@
   "site": {
     "title": "",
     "description": "",
-    "logo": "",
-    "cover": "",
+    "logo": "image::http://github.com/mkhymohamed/mkhymohamed.github.io/images/logo.jpg[]",
+    "cover": "image::http://github.com/mohamedkhaledyousef/mkhymohamed.github.io/images/logo.jpg[]",
     "delay": "",
     "postsPerPage": "",
     "googleAnalytics": "",

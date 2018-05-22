@@ -1,0 +1,84 @@
+= All operations and algorithms on single linked Lists in C++
+
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+// :hp-image: /covers/cover.png
+// :published_at: 2019-01-31
+// :hp-tags: HubPress, Blog, Open_Source,
+// :hp-alt-title: My English Title
+== linked list is a data structure that having a list of elements and each element has a reference pointing to the next element in the list.
+===== First thing we have to know about linked list is we have a head pointer that points to a node that then has some date and points to another node and so on till a node that dose not point to any farther.
+And node contains 2 elements ,the value or the key (number like 7) and a pointer that points to the next node that contain (another number like 10 for example)
+
+
+. item
+. item
+. item
+* item
+* 
+* item
+
+
+= 7 → 10
+= There are operation that can be done on linked list called List API
+== 1-On the front of the list:
+. PushFront(key): add to front
+. Key TopFront(): return the front element
+. PopFront(): remove the front element
+
+== 2-On the end of the list
+. PushBack(key): add to back … also known a Append
+. Key TopBack(): return the back element
+. PopBack(): remove the back element
+*There is difference between the front and back operation in run time*
+
+== 3-We can also do:
+. Boolean Find(Key): is key in a list?
+. Erase(Key): remove key from list
+. Boolean Empty(): empty list?
+. AddBefore(Node,Key): adds key before Node
+. AddAfter(Node,Key): adds key after Node
+
+==== Example:
+we have an empty list ,do this following operations:
+PushBack(a);
+PushFront(b);
+PushBack(d);
+PushFront(c);
+PopBack();
+
+==== Solution:
+PushBack(a); a
+PushFront(b); b a
+PushBack(d); b a d
+PushFront(c); c b a d
+PopBack(); c b a
+so,the final result is => c b a
+
+== The run time for some operations
+==== . PushFront(key): add to front in O(1)
+==== . Key TopFront(): return the front element in O(1)
+==== . PopFront(): remove the front element O(1)
+==== . PushBack(key): add to back in O(n) without no tail
+==== . PushBack(key): add to back in O(1) with tail
+==== . Key TopBack(): return the back element in O(n) without tail
+==== . Key TopBack(): return the back element in O(1) with tail
+==== . PopBack(): remove the back element in O(n)
+
+== NOTEs::
+==== WHEN we want to push at the back?
+*1-If We don’t have a tail pointer,* So this going to be expensive operation. *WHY?* because we start at the head and walk our way down the list untill we get to the end and in the end we add a node so its going to be O(n). Similarly if we want to TopBack or PopBack
+*2-If we had a tail pointer,* some of this will become simpler. *WHY?* because we are going to have both a head pointer that points to the head element ,and tail pointer that points to the tail element. So the first element and the last element became cheap operations.
+*For example: * when we have tail pointer and we want to insert element
+* We first allocate a node and put in our new key
+* Then update the next pointer of the current tail to point to this new tail
+* Then update the tail pointer itself 
+* And the run time will be O(1)
+==== WHEN we have tail pointer and we want to delete or PopBack element:
+* Here we don’t have pointer that points from the last element to the previous last (the element before)
+* We only have a pointer from the previous to the last element and that pointer does not help us going back
+* So what we have got to do is:
+* We start from the head and walk our way down until we find the previous last element or node that points to the current tail (last element)
+* Then update our tail pointer to point to that (previous last element)
+* Then update the tail pointer to be null, this means tail pointer points to the previous last element which it became the tail element
+* Then we can remove the last element
+* And the final run time will be O(n) Because we have got to walk all the way down
